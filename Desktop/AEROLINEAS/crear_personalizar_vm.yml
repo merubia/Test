@@ -6,7 +6,7 @@
   - name: Deploy y Personalizacion
     vmware_guest:
       validate_certs: False
-      name: 
+      # name: 
       template: W2019-v22.06
       datacenter: "CIP Ezeiza"
       folder: "/"
