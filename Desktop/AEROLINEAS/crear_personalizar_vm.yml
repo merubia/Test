@@ -9,7 +9,7 @@
       name: ARSRV-TEST-ANSIBLE
       template: W2019-v22.06
       datacenter: "CIP Ezeiza"
-      folder: "/vsanDatastore"
+      folder: "/"
       state: poweredon
       customization_spec: "Windows Server 2022"
       cluster: "Cluster vSAN"
