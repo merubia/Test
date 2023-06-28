@@ -10,6 +10,7 @@
       template: W2019-v22.06
       datacenter: "CIP Ezeiza"
       folder: "/"
+      datastore: vsanDatastore
       state: poweredon
       customization_spec: "Windows Server 2022"
       cluster: "Cluster vSAN"
