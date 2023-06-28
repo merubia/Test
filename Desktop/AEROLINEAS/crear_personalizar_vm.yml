@@ -3,15 +3,15 @@
   hosts: localhost
   gather_facts: no
   tasks:
-  - name: Clone the template
+  - name: Deploy y Personalizacion
     vmware_guest:
       validate_certs: False
-      name: W10-03P
-      template: W10
-      datacenter: Datacenter
-      folder: "/"
+      name: ARSRV-TEST-ANSIBLE
+      template: W2019-v22.06
+      datacenter: "CIP Ezeiza"
+      folder: "/CIP Ezeiza/Cluster vSAN"
       state: poweredon
-      customization_spec: "Windows 10"
+      customization_spec: "Windows Server 2022"
       cluster: LAB
       wait_for_ip_address: yes
 
