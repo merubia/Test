@@ -1,0 +1,15 @@
+---
+- name: Create a VM from a template
+  hosts: localhost
+  gather_facts: no
+  tasks:
+  - name: Clone the template
+    vmware_guest:
+      validate_certs: False
+      name: W10-02
+      template: W10
+      datacenter: Datacenter
+      folder: "/"
+      state: poweredon
+      cluster: LAB
+      wait_for_ip_address: yes
