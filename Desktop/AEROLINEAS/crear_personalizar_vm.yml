@@ -12,6 +12,6 @@
       folder: "/"
       state: poweredon
       customization_spec: "Windows Server 2022"
-      cluster: LAB
+      cluster: "Cluster vSAN"
       wait_for_ip_address: yes
 
