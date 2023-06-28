@@ -1,5 +1,5 @@
 ---
-- name: Create a VM from a template
+- name: Deploy VM Windows Server 2019 y Personalizar
   hosts: localhost
   gather_facts: no
   tasks:
@@ -9,7 +9,7 @@
       name: ARSRV-TEST-ANSIBLE
       template: W2019-v22.06
       datacenter: "CIP Ezeiza"
-      folder: "/"
+      folder: "/vsanDatastore"
       state: poweredon
       customization_spec: "Windows Server 2022"
       cluster: "Cluster vSAN"
