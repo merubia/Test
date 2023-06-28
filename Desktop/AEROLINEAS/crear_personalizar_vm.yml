@@ -8,8 +8,8 @@
       validate_certs: False
       name: ARSRV-TEST-ANSIBLE
       template: W2019-v22.06
-      datacenter: CIP Ezeiza
-      folder: "/CIP Ezeiza/Cluster vSAN"
+      datacenter: "CIP Ezeiza"
+      folder: "/"
       state: poweredon
       customization_spec: "Windows Server 2022"
       cluster: LAB
