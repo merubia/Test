@@ -1,0 +1,9 @@
+---
+    plugin: community.vmware.vmware_vm_inventory
+    strict: false
+    hostname: localhost
+    username: ansible@vsphere.local
+    password: Agustin08$
+    validate_certs: false
+    properties:
+    - 'name'
